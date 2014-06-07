@@ -1,0 +1,199 @@
+body
+{
+	background: white;
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-size: 16px;
+}
+footer
+{
+	background: rgb(102,0,102);
+	margin: 1em 0 0 0;
+	padding: 0.99em;
+	position: relative;
+}
+footer a
+{
+	color: white;
+	
+	text-decoration: none;
+}
+
+footer .rec
+{
+	font-size: 0.8em;
+	font-style: italic;
+	margin: 1.6em 1em 0 0;
+	position: absolute;
+	right: 0;
+	top: 0;
+}
+footer .star
+{
+	font-size: 1.2em;
+}
+header
+{
+	background: rgb(102,0,102);
+	
+	
+	padding: 0.5em;
+	position: relative;
+}
+header a
+{
+	color: white;
+	text-decoration: none;
+}
+header .icon-buscar
+{
+	float: right;
+	font-size: 1.2em;
+	position: absolute;
+	right: 1em;
+	top: 1em;
+}
+header .icon-logo
+{
+	font-size: 32px;
+	margin-left: 0.3em;
+}
+header .icon-navi
+{
+	font-size: 0.8em;
+}
+#contenido
+{
+	margin: 1.5em 5% 4em 5%;
+	height: 80%;
+}
+#contenido .item
+{
+	border-left: 1px solid #C0C0C0;
+	border-top: 1px solid #C0C0C0;
+	border-radius: 5px;
+	box-shadow:rgba(0,0,0,0.5) 3px 3px 3px;
+	display: inline-block;
+	margin-bottom: 1em; 
+	position: relative;
+	width: 100%;
+}
+#buscador
+{
+
+}
+#buscador a
+{
+	background: rgb(102,0,102);
+	border-radius: 5px;
+	border-bottom: 5px solid rgb(64,0,64) ;
+	float: left;
+	margin: 1.5em 0.3em 0 0;
+	padding: 0.5em 0.5em 0.3em 0.3em;
+	text-decoration: none;
+	color: white;
+}
+#contenido .item .city,
+#contenido .item .registrado
+{
+	color: #CCC;
+}
+#contenido .item div
+{
+	
+}
+#contenido .item .logoNegocio
+{
+	float: left;
+	margin: .5em 0.3em 0 .4em;
+	width: 120px;	
+}
+#contenido .item .logoNegocio img
+{	
+	border-radius: 50%;
+	width: 110px;
+}
+#contenido .item .negocio
+{
+	font-size: 1.2em;
+	font-style: italic;
+	padding: 0;
+}
+
+
+@font-face {
+	font-family: 'icomoon';
+	src:url('fonts/icomoon.eot?yjfwc7');
+	src:url('fonts/icomoon.eot?#iefixyjfwc7') format('embedded-opentype'),
+		url('fonts/icomoon.woff?yjfwc7') format('woff'),
+		url('fonts/icomoon.ttf?yjfwc7') format('truetype'),
+		url('fonts/icomoon.svg?yjfwc7#icomoon') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+	font-family: 'icomoon';
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+
+	/* Better Font Rendering =========== */
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.icon-logo:before {
+	content: "\e600";
+}
+.icon-navi:before {
+	content: "\e601";
+}
+.icon-carga:before {
+	content: "\e602";
+}
+.icon-buscar:before {
+	content: "\e603";
+}
+.icon-config:before {
+	content: "\e604";
+}
+.icon-bares:before {
+	content: "\e605";
+}
+.icon-comidas:before {
+	content: "\e606";
+}
+.icon-restaurant:before {
+	content: "\e607";
+}
+.icon-fire:before {
+	content: "\e608";
+}
+.icon-rayo:before {
+	content: "\e609";
+}
+.icon-switch:before {
+	content: "\e60a";
+}
+.icon-menu:before {
+	content: "\e60b";
+}
+.icon-star:before {
+	content: "\e60c";
+}
+.icon-check:before {
+	content: "\e60d";
+}
+
+
+
+
+
+
+
+
+
+

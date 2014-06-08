@@ -7,9 +7,12 @@ body
 footer
 {
 	background: rgb(102,0,102);
+	bottom: 0;
+	left: 0;
 	margin: 1em 0 0 0;
-	padding: 0.99em;
-	position: relative;
+	padding: 1em;
+	position: absolute;
+	right: 0;
 }
 footer a
 {
@@ -61,10 +64,28 @@ header .icon-navi
 {
 	font-size: 0.8em;
 }
+#buscador
+{
+ 	display: none;
+ 	position: absolute;
+ 	margin-left: 15%;
+}
+#buscador a
+{
+	background: rgb(102,0,102);
+	border-bottom: 5px solid rgb(64,0,64) ;
+	border-radius: 5px;
+	color: white;
+	float: left;
+	margin: 1.5em 0.3em 0 0;
+	padding: 0.5em 0.5em 0.3em 0.3em;
+	text-decoration: none;
+}
 #contenido
 {
 	margin: 1.5em 5% 4em 5%;
-	height: 80%;
+	height: 90%;
+	position: relative;
 }
 #contenido .item
 {
@@ -74,23 +95,8 @@ header .icon-navi
 	box-shadow:rgba(0,0,0,0.5) 3px 3px 3px;
 	display: inline-block;
 	margin-bottom: 1em; 
-	position: relative;
+	
 	width: 100%;
-}
-#buscador
-{
-
-}
-#buscador a
-{
-	background: rgb(102,0,102);
-	border-radius: 5px;
-	border-bottom: 5px solid rgb(64,0,64) ;
-	float: left;
-	margin: 1.5em 0.3em 0 0;
-	padding: 0.5em 0.5em 0.3em 0.3em;
-	text-decoration: none;
-	color: white;
 }
 #contenido .item .city,
 #contenido .item .registrado
@@ -118,8 +124,43 @@ header .icon-navi
 	font-style: italic;
 	padding: 0;
 }
+@media screen and (min-width:360px){
 
+	#buscador
+	{
+		display: inline-block;
+	}
+}
+@media screen and (min-width:700px){
+	#buscador
+	{
+		margin-top: 20%;
+		float: left;
+		top: 0;
+	}
+	#contenido{
+		
+		overflow: hidden;
+	}
 
+	#contenido .item{
+		width: 50%;
+	}
+	#contenido .item:first-child
+	{
+		margin-top: 20%;
+	}
+}
+@media screen and (min-width:1200px){
+	#buscador
+	{
+		margin-top: 10%;
+	}
+	#contenido .item:first-child
+	{
+		margin-top: 10%;
+	}
+}
 @font-face {
 	font-family: 'icomoon';
 	src:url('fonts/icomoon.eot?yjfwc7');

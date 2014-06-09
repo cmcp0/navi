@@ -30,9 +30,31 @@ footer .rec
 	right: 0;
 	top: 0;
 }
-footer .star
+footer div
+{
+	-webkit-transition: transform 1s;
+	transition: transform 1s;
+    width: 1.2em;
+}
+footer div:hover
+{
+	-webkit-transform: rotate(360deg);
+	transform: rotate(360deg);
+}
+
+footer div .star
 {
 	font-size: 1.2em;
+	
+}	
+footer .rec:hover
+{
+	text-shadow:rgba(0,0,0,0.5) 1.5px 1px 3px;
+}
+footer div .star:hover
+{
+	
+	text-shadow: rgba(0,0,0,0.5) 1.5px 1px 3px;
 }
 header
 {
@@ -44,7 +66,9 @@ header
 }
 header a
 {
+	border-radius: 5px;
 	color: white;
+	padding: .1em;
 	text-decoration: none;
 }
 header .icon-buscar
@@ -53,16 +77,23 @@ header .icon-buscar
 	font-size: 1.2em;
 	position: absolute;
 	right: 1em;
-	top: 1em;
+	top: .8em;
 }
 header .icon-logo
 {
-	font-size: 32px;
+	font-size: 28px;
 	margin-left: 0.3em;
 }
 header .icon-navi
 {
 	font-size: 0.8em;
+	margin-left: 0;
+}
+header .icon-logo:hover,
+header .icon-buscar:hover,
+header .icon-navi:hover
+{
+	text-shadow:rgba(0,0,0,0.5) 1.5px 1px 3px;;
 }
 #buscador
 {
@@ -98,10 +129,16 @@ header .icon-navi
 	
 	width: 100%;
 }
+#contenido .item:hover
+{
+	cursor:pointer;
+	opacity: .8;
+}
 #contenido .item .city,
 #contenido .item .registrado
 {
-	color: #CCC;
+	color: #AAA;
+	font-size: .8em;
 }
 #contenido .item div
 {
@@ -109,6 +146,7 @@ header .icon-navi
 }
 #contenido .item .logoNegocio
 {
+	
 	float: left;
 	margin: .5em 0.3em 0 .4em;
 	width: 120px;	
@@ -120,8 +158,10 @@ header .icon-navi
 }
 #contenido .item .negocio
 {
+	
 	font-size: 1.2em;
 	font-style: italic;
+	margin: .3em 0 0 0;
 	padding: 0;
 }
 @media screen and (min-width:360px){

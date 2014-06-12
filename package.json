@@ -1,15 +1,15 @@
-{     
-  "name": "navi",    
-  "version": "0.1.2",     
-  "dependencies": {         
-     "express"     : "4.4.3",         
-     "socket.io"   : "1.0.4"    
+{
+  "name": "navi",
+  "version": "0.1.2-1",
+  "dependencies": {
+    "express": "4.4.3",
+    "socket.io": "1.0.4"
   },
   "subdomain": "cmcp.navi",
-    "scripts": {
-        "start": "server.js"
-    },
-    "engines": {
-        "node": "*"
-    } 
+  "scripts": {
+    "start": "server.js"
+  },
+  "engines": {
+    "node": "*"
+  }
 }
